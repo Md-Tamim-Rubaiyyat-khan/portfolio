@@ -1,0 +1,460 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'josefin sans' , sans-serif;
+
+} 
+ body{
+    margin: 0px;
+    padding: 0px;
+    background: url(https://i.postimg.cc/pLpNpY6N/background-2-photy.jpg);
+    background-repeat: no-repeat;
+    background-size: 10000px;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    scrollbar-width: auto;
+    overflow: scroll;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.nav1 ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:30px;
+    font-weight: bold;
+    color:#2050a8e3 ;
+
+}
+.nav1 ul li a:hover{
+    color:#031942e3 ;
+transition: .4s;
+
+}
+.logo1{
+color: #2050a8e3;
+font-size: 68px;
+letter-spacing: 1px;
+cursor: pointer;
+text-shadow:2px 3px 1px #000;
+}
+
+.container{
+    margin: 25px 0px 0px 179px;
+    padding: 0px 20px 0 0;
+    height: 80vh;
+    width: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255,0.1);
+    box-shadow: -15px 17px 243px rgba(10, 10, 10, 0.15);
+
+
+}
+.content1{
+    margin: 0px 0px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translateY(-50%);
+
+}
+
+.content1 h1{
+    color: #00042A;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+}
+.content1 h3{
+    color: #00042A;
+    margin-bottom: -438px;
+    font-size: 30px;
+}
+.content1 h4{
+    color:#2050a8e3;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 14px 13px 14px 15px;
+    border: 2px solid #2050a8e3;
+    border-radius: 30px;
+    outline: none;
+
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #2050a8e3;
+    color: white;
+
+}
+
+.image{
+    margin: 0px 0px 0px 0px;
+    width: 60%;
+    position: relative;
+    left: 125%;
+    top: 100px;
+    
+}
+.image img{
+    position: relative;
+     
+}
+
+.image::after{
+    content: '';
+    position: absolute;
+    background-color: #00042A;
+    border-radius: 5%;
+    width: 500px;
+    height: 510px ;
+    top: -5%;
+    left: -2%;
+    z-index: -5;
+
+
+    
+}
+
+
+
+      /* ------------second stage --------------*/
+
+.container2{
+margin: 128px 0px 0px 179px;
+padding: 0px 20px 0 0;
+height: 82vh;
+width: 80%;
+background-color: rgb(255, 255, 255,0.1);
+z-index: 10;
+position: absolute;
+top: 90%;
+border: 2px solid rgba(255, 255, 255, 0.7);
+border-radius: 20px;
+backdrop-filter: blur(25px);
+box-shadow: -15px 17px 243px rgba(10, 10, 10, 0.15);
+    
+}
+
+.nav2{
+    margin-left: 0px;
+
+}
+
+.nav2 .logo2{
+    position: absolute;
+    top: 10%;
+}
+.container2 .nav2{
+    height: 7%;
+    width: 15%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    font-size:2000px ;
+    margin: -107px 0px 0px 630px;
+    padding: 20px;
+    display: flex;
+}
+
+.container2 .logo2{
+    font-size: 42px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    margin-left: 30px;
+    position: absolut;
+    top: 30%;
+
+}
+    .container2 .nav2 .logo2::first-letter{
+        color:#2050a8e3;
+        font-size: 35px;
+    }
+.container2 .nav2 ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.container2 .nav2  a{
+    text-decoration: none;
+    font-size: 32px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.content2{ 
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+
+}
+
+.section-1{
+position: absolute;
+left: 80%;
+bottom: -2000%;
+
+}
+
+.content2 .section-1{
+    position: relative;
+    width: 11%;
+    top: 2000%;
+}
+
+.content2 .section-1 .btn{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: -281px;
+    
+
+}
+
+.btn{
+    padding: 13px 27px;
+    border-radius: 5px;
+    background-color: #2050a8e3;
+    color: white;
+    border: 3px solid #2050a8e3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.About-me{
+    margin: 15px 0px 0px 277px;
+    padding: 0px 0px 0px 0px;
+}
+.About-me2{
+    margin: 41px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.myself{
+  margin:171px -2px 0px -401px;
+    font-size: 25px;
+    text-align: justify;
+    width: 734px;
+
+}
+.word .myself{
+    margin-left: -408px;
+}
+.myself-box{
+    width: 746px;
+    margin: 74px 0px 0 80px;
+    box-shadow: 4px 3px 15px rgb(61, 61, 131), 4px 3px 15px;
+    min-height: 20vh;
+  height: 435px;
+  display: flex;
+  background-image: url(https://i.postimg.cc/RVJ0jVNX/depositphotos-46436475-stock-illustration-pale-sky-blue-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center
+  
+}
+.image2{
+position: absolute;
+right: 68%;
+margin:0px;
+z-index: -5;
+
+}
+
+.image2::after{
+
+    content: '';
+    position: absolute;
+    background-color: #00042A;
+    border-radius: 5%;
+    width: 380px;
+    height: 477px ;
+    top: 18%;
+    left: 2%;
+    z-index: -5;
+
+}
+
+
+
+
+
+
+/* ------------Third stage --------------*/
+
+.container3{
+ margin: 1070px 0px 0px 179px;
+padding: 0px 20px 0 0;
+height: 80vh;
+width: 80%;
+background-color: rgb(255, 255, 255,0.1);
+z-index: 10;
+position: absolute;
+top: 90%;
+border: 2px solid rgba(255, 255, 255, 0.7);
+border-radius: 20px;
+backdrop-filter: blur(25px);
+box-shadow: -15px 17px 243px rgba(10, 10, 10, 0.15);
+}
+
+
+.box2 h1{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    font-size:40px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    
+    
+}
+.box2 h1::first-letter{
+font-size: 60px;
+color:#2050a8e3
+}
+.image3 img{
+    background: no-repeat;
+    width: 450px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+
+/*-------------- Fourth stage -----------*/
+
+
+.container4{
+    margin: 2010px 0px 0px 179px;
+   padding: 0px 20px 0 0;
+   height: 80vh;
+   width: 80%;
+   background-color: rgb(255, 255, 255,0.1);
+   z-index: 10;
+   position: absolute;
+   top: 90%;
+   border: 2px solid rgba(255, 255, 255, 0.7);
+   border-radius: 20px;
+   backdrop-filter: blur(25px);
+   box-shadow: -15px 17px 243px rgba(10, 10, 10, 0.15);
+   }
+
+   .box3{
+    background-color: #9dd8eb ;
+    width: 100%;
+    height: 310px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    top:35% ;
+   }
+   
+   .box3 .header{
+    position: absolute;
+    left: 45%;
+    top: -94%;
+    margin-top: 45px;
+    font-size:20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+
+   
+}
+
+.box3 .header h1::first-letter{
+font-size: 60px;
+color:#2050a8e3
+}
+.header2{
+    position: absolute;
+    left: 36%;
+    top: 20%;
+}
+.header2 p{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 5px 45px;
+}
+
+.header2 a{
+    background-color: #2050a8e3;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    position: absolute;
+    left: 29%;
+}
+ 
+
+.button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #2050a8e3;
+}
+
+
+
+/*-------------- Footer stage -----------*/
+
+footer{
+    position: absolute;
+    top: 70%;
+    z-index: -5;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.social a i{
+    font-size: 25px;
+    color: #2050a8e3;
+}
